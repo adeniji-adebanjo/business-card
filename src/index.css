@@ -7,13 +7,147 @@ body {
   margin: 0;
 }
 
-.container {
+/* .main-container {
+  width: 100%;
+  display: -ms-flexbox;
+  justify-content: center;
   align-items: center;
-  align-content: center;
+} */
+
+/* .img-container {
+  position: absolute;
+  width: 317px;
+  height: 317px;
+  left: 116px;
+  top: 44px;
+  background: url(.png);
+  border-radius: 10px 10px 0px 0px;
+} */
+
+.img-container,
+.hero-img {
+  /* width: 70%;
+  border-radius: 20px 20px 0 0; */
+  position: absolute;
+  width: 317px;
+  height: 317px;
+  left: 116px;
+  top: 44px;
+  /* background: url(.png); */
+  border-radius: 10px 10px 0px 0px;
 }
 
-.container,
-.hero-img {
-  width: 70%;
-  border-radius: 20px 20px 0 0;
+.main-header {
+  display: block;
+  align-items: center;
+}
+
+.main-header h2 {
+  position: absolute;
+  width: 178.06px;
+  height: 25.81px;
+  left: 186px;
+  top: 400px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+.main-header h3 {
+  position: absolute;
+  width: 178.06px;
+  height: 14.19px;
+  left: 186px;
+  top: 430px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 25px;
+  text-align: center;
+  color: #f3bf99;
+}
+.main-header p {
+  position: absolute;
+  width: 228px;
+  height: 16px;
+  left: 161px;
+  top: 465px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+
+  text-align: center;
+}
+.main-header p a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.email-btn {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+
+  position: absolute;
+  width: 115px;
+  height: 34px;
+  left: 151px;
+  top: 500px;
+
+  /* white */
+
+  background: #ffffff;
+  /* gray/300 */
+
+  border: 1px solid #d1d5db;
+  /* shadow/sm */
+
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+fa fa-envelope {
+  width: 16px;
+  height: 16px;
+  color: black;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.linkedin-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+
+  position: absolute;
+  width: 115px;
+  height: 34px;
+  left: 283px;
+  top: 500px;
+
+  background: #5093e2;
+  /* shadow/sm */
+
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
 }
