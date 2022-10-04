@@ -1,47 +1,41 @@
-body {
+/* body {
   background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   font-family: inter, Sans-serif;
   margin: 0;
-}
-
-/* .main-container {
-  width: 100%;
-  display: -ms-flexbox;
-  justify-content: center;
-  align-items: center;
 } */
 
-/* .img-container {
+.main-container {
+  position: absolute;
+  width: 550px;
+  height: 868px;
+  left: 65px;
+  top: 53px;
+  background: #23252c;
+}
+
+.body-content {
+  position: absolute;
+  width: 317px;
+  height: 399px;
+  left: 116px;
+  top: 361px;
+  background: #1a1b21;
+}
+
+.img-container {
   position: absolute;
   width: 317px;
   height: 317px;
   left: 116px;
   top: 44px;
-  background: url(.png);
-  border-radius: 10px 10px 0px 0px;
-} */
-
-.img-container,
-.hero-img {
-  /* width: 70%;
-  border-radius: 20px 20px 0 0; */
-  position: absolute;
-  width: 317px;
-  height: 317px;
-  left: 116px;
-  top: 44px;
-  /* background: url(.png); */
+  background: url(./images/adebanjo.png);
   border-radius: 10px 10px 0px 0px;
 }
 
-.main-header {
-  display: block;
-  align-items: center;
-}
-
+.body-content,
 .main-header h2 {
   position: absolute;
   width: 178.06px;
@@ -150,4 +144,64 @@ fa fa-envelope {
 
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
   border-radius: 6px;
+}
+
+.about-me {
+  position: absolute;
+  width: 247px;
+  height: 201px;
+  left: 152px;
+  top: 535px;
+  color: #ffffff;
+}
+.about-me h2 {
+  font-size: 20px;
+}
+.about-me p {
+  font-size: 10px;
+  line-height: 2em;
+}
+.interests {
+  position: absolute;
+  width: 247px;
+  height: 201px;
+  left: 152px;
+  top: 680px;
+  color: #ffffff;
+}
+
+.interests h2 {
+  font-size: 20px;
+}
+.interests p {
+  font-size: 10px;
+  line-height: 2em;
+}
+/* .main-container, */
+.social-container {
+  background: #eee;
+  padding: 25px 50px;
+}
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+a.social:hover {
+  transform: translateY(-2px);
+}
+a.youtube {
+  color: #eb3223;
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: black;
 }
