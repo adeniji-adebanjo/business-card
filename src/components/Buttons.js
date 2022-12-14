@@ -13,7 +13,7 @@ export default function Buttons() {
         </a>
       </button>
       <button className="linkedin-btn">
-        <a href="https://linkedin.com/inadebanjo-adeniji">
+        <a href="https://linkedin.com/in/adebanjo-adeniji">
           <span>
             <FaLinkedin />
           </span>

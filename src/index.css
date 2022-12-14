@@ -1,16 +1,12 @@
-/* body {
-  background-color: black;
+body {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   font-family: inter, Sans-serif;
-  margin: 0;
-} */
+}
 
 .main-container {
   position: absolute;
   width: 550px;
-  height: 868px;
+  height: 920px;
   left: 65px;
   top: 53px;
   background: #23252c;
@@ -163,13 +159,16 @@ fa fa-linkedin {
 .about-me p {
   font-size: 10px;
   line-height: 2em;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-family: "Courier New", Courier, monospace;
+  text-align: justify;
 }
 .interests {
   position: absolute;
   width: 247px;
   height: 201px;
   left: 152px;
-  top: 680px;
+  top: 730px;
   color: #ffffff;
 }
 
@@ -179,6 +178,8 @@ fa fa-linkedin {
 .interests p {
   font-size: 10px;
   line-height: 2em;
+  font-family: "Courier New", Courier, monospace;
+  text-align: justify;
 }
 /* .main-container, */
 .social-container {
