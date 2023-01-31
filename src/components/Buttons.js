@@ -1,23 +1,19 @@
 import React from "react";
-import { FaBeer, FaLinkedin, FaLinkedinIn } from "react-icons/fa";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export default function Buttons() {
   return (
     <>
       <button className="email-btn">
         <a href="mailto:aeben.adebanjo@gmail.com">
-          <span>
-            <FaBeer />
-          </span>
-          Email
+          <FontAwesomeIcon icon={faEnvelope} /> Email
         </a>
       </button>
       <button className="linkedin-btn">
         <a href="https://linkedin.com/in/adebanjo-adeniji">
-          <span>
-            <FaLinkedin />
-          </span>
-          LinkedIn
+          <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
         </a>
       </button>
     </>
