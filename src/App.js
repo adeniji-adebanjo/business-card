@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Buttons from "./components/Buttons";
 import BodyContent from "./components/BodyContent";
 import Footer from "./components/Footer";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <Buttons />
         <BodyContent />
         <Footer />
+        <Analytics />
       </div>
     </>
   );
